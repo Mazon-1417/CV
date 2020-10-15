@@ -1,88 +1,53 @@
 .top-container {
   background-color: black;
   width: 100%;
-  height: 600px;
+  height: auto;
   text-align: right;
   position: relative;
 }
 
 .pic1 {
-  width: 475px;
-  height: 300px;
-  /*margin-left: 788px;*/
-  margin-top: 140px;
+  width: 100%;
+  height: auto;
+
 }
 
-.my-name{
-  display: inline-block;
-  position: absolute;
-  right: 790px;
-    top: 230px;
-    color: #eeeeee;
-    font-family: 'Dawning of a New Day', cursive;
-    font-weight: lighter;
-    font-size: 5rem;
-}
-
-.my-job{
-  display: inline-block;
-  position: absolute;
-  right: 802px;
-    top: 340px;
-    color: #eeeeee;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300;
-    font-size: 0.75rem;
-}
-
-.sequare{
-  width: 475px;
-    height: 300px;
-    border: 1px solid gray;
-    position: absolute;
-    left: 58%;
-    bottom: 18%;
-}
-
-.skills{
+.skills {
   margin-top: 40px;
 }
 
-.intro{
+.intro {
   width: 50%;
   margin: auto;
 }
 
-.skill-row{
+.skill-row {
   width: 50%;
-  margin:50px auto ;
+  margin: 50px auto;
   text-align: left;
   line-height: 2;
-
 }
 
 .middle-container {
-  padding-top:30px;
-
+  padding-top: 30px;
 }
 
-.profile{
+.profile {
   margin: 50px auto;
 }
 
 .contact-me {
   width: 50%;
-  margin:50px auto ;
+  margin: 50px auto;
   text-align: center;
   line-height: 2;
-
 }
 
 .bottom-container {
-background-color: black;
-padding-top: 30px;
-width: 100%;
-height: 90px;
+  background-color: black;
+  padding-top: 30px;
+  width: 100%;
+  height: 90px;
 }
 
 body {
@@ -91,8 +56,8 @@ body {
   background-color: #D3D3D3;
 }
 
-hr{
-  border-style:dotted none none none;
+hr {
+  border-style: dotted none none none;
   border-color: white;
   border-width: 4px;
   width: 5%;
@@ -102,34 +67,35 @@ h1 {
   margin-top: 0;
 }
 
-h2{
+h2 {
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   color: #373a40;
 }
 
-h3{
+h3 {
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
 }
 
-p{
-    font-family: 'Quicksand', sans-serif;
-    line-height: 2;
+p {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 2;
 }
 
-a{
-  color:#D3D3D3 ;
+a {
+  color: #D3D3D3;
   text-decoration: none;
   font-weight: bold;
   padding: 10px;
 }
 
-a:hover{
+a:hover {
   color: white;
 }
- button{
-   background-color: black;
+
+button {
+  background-color: black;
   border: none;
   border-radius: 20px;
   color: white;
@@ -141,40 +107,40 @@ a:hover{
   margin: 4px 2px;
   cursor: pointer;
   font-family: 'Quicksand', sans-serif;
- }
+}
 
- button:hover {
+button:hover {
   background-color: #373a40;
   color: white;
 }
 
-.footer-link{
+.footer-link {
   font-family: 'Quicksand', sans-serif;
   padding-top: 20px;
 }
 
-.co{
-color: #373a40;
-font-weight: bolder;
-font-size: 14px;
+.co {
+  color: #373a40;
+  font-weight: bolder;
+  font-size: 14px;
 }
 
-.btn{
+.btn {
   font-family: 'Quicksand', sans-serif;
 }
 
-.img-s1{
+.img-s1 {
   width: 20%;
   float: left;
   padding-right: 10px;
 }
 
-.img-s2{
+.img-s2 {
   width: 20%;
   float: right;
   padding-left: 10px;
 }
 
-.img-p{
+.img-p {
   width: 10%;
 }
